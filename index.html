@@ -7,12 +7,25 @@
     <title>Document</title>
     <script src="app.js" type="module" defer></script>
 </head>
-<body>
 
-    <my-header></my-header>
-    <hr>
-    <my-tabla></my-tabla>
-    <hr>
-    
+<my-header></my-header>
+<body>
+    <!--<my-tabla></my-tabla>-->
+    <div class="contenedor">
+        <div>
+    <my-section ></my-section>
+    <my-seleccion></my-seleccion>
+        </div>
+        <my-aside></my-aside>
+
+    </div>
+    <my-footer></my-footer>
+    <style>
+        .contenedor{
+            background-color: black;
+            display: flex;
+        }
+
+    </style>
 </body>
 </html> 
