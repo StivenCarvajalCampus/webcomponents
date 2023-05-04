@@ -1,27 +1,36 @@
 <div class="footer">
-    <h1>footer</h1>
+    <span>footer</span>
     <form>
         <button type="submit" class="boton">Enviar Footer</button>
     </form>
 </div>
 <style>
+span{
+    font-weight: bold;
+    font-size: 25px;
+}
 .footer{
             display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             background-color: darkkhaki;
             width: 100vw;
-            height: 25vh;
+            height: 15vh;
+            overflow: hidden;
         }
         .boton {
         background-color: aqua;
         color: black;
         border: 2px solid #555555;
-        background-color: #4CAF50; /* Green */
+        background-color: #afa760; /* Green */
         border: none;
         color: white;
         padding: 16px 32px;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
+        display: flex;
+        border-radius: 25px;
         font-size: 16px;
         margin: 4px 2px;
         -webkit-transition-duration: 0.4s; /* Safari */
@@ -30,7 +39,7 @@
     }
 
     .boton:hover {
-        background-color: darkcyan;
+        background-color: rgb(146, 145, 59);
         color: white;
     }
 </style>
